@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.intro-section{}
+
+.container{
+	width: 1000px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.container .product-info{
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+
+.container .product-info2{
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-info ul{
+
+margin-bottom: 5px;
+}
+
+.product-info .left{
+	list-style: none;
+	display: inline-block;
+	font-size: 17px;
+	line-height: 30px;
+	color: white;
+	background-color: #237be5;
+	padding: 9px;
+	margin-right: 6px;
+	box-shadow: 2px 2px 2px black;
+	transition-duration: 0.4s;
+}
+
+.product-info .left:hover{
+	box-shadow: -2px -2px 2px black;
+}
+
+.product-info .right{
+	list-style: none;
+	display: inline-block;
+	font-size: 17px;
+	line-height: 30px;
+	color: #237be5;
+	background-color: white;
+	padding: 9px;
+	margin-right: 6px;
+	box-shadow: 2px 2px 2px black;
+	transition-duration: 0.7s;
+}
+
+.product-info .right:hover{
+	box-shadow: -2px -2px 2px black;
+}
+
+h2{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.sponsor-section{
+    width: 90%;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+.sponsor-section .sponsor{
+    text-align: center;
+}
+
+.sponsor ul{
+    list-style: none;
+}
+
+.sponsor ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.fix{
+	
+text-align: center;
+	
+margin-top: 80px;
+}
+
+.problem-fix .container .fix p{
+	
+width: 50%;
+	
+margin: auto;
+}
+
+.problem-description{ 
+
+}
+
+.problem-description .container{
+
+}
+
+.problem-description .container .product-info{
+
+padding-top: 0px;
+}
+
+h3{
+
+margin-top: 30px;
+
+font-size: 25px;
+}
+
+.fixing-benefit .container .fix-photo{
+
+text-align: center;
+
+margin-top: 45px;
+
+margin-bottom: 55px;
+}
+
+.product-result{
+	
+margin-bottom: 120px;
+}
+
+.x12{
+	background-color: #CBEAFE;
+	padding: 5px;
+}
+
+.x15{
+	background-color: #FECCCB;
+	padding:5px;
+}
+
+.container .product-info2 ul{
+
+}
+
+.container .product-info2 ul li{
+
+float: left;
+
+list-style: none;
+
+padding-right: 75px;
+}
+
+.container .product-info2 ul li h3{
+
+margin-top: 5px;
+}
+
+.container .product-info2 ul li p{
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+.jhamela{
+	
+text-align: center;
+	
+border-color: #CBEAFE;
+	
+border-style: solid;
+	
+padding: 40px 20px;
+}
+
+.jhamela .image{
+
+}
+
+.jhamela .text{
+
+}
+
+.jhamela .text p{
+
+padding-top: 5px;
+
+padding-bottom: 5px;
+}
+
+.fix .benefit-photos{
+
+}
+
+.benefit-photos ul{text-align: center;margin-top: 70px;}
+
+.benefit-photos ul li{
+
+float: left;
+
+width: 33.33%;
+
+list-style: none;
+}
+
+.benefit-photos ul li p{
+
+padding-top: 7px;
+
+padding-bottom: 60px;
+
+font-size: 15px;
+}
+
+.visitor-section{
+	
+background-color: #237BE5;
+width: 90%;
+margin:auto;
+}
+
+.visitor-section h2{
+	color: white;
+}
+
+.visitor-section p{
+	color: white;
+}
+
+.visitor-section .left{
+
+background-color: white;
+
+color: #237BE5;
+}
+
+.visitor-section .right{
+	
+background-color: #237BE5;
+	
+color: white;
+}
+
+.visitor-section img{
+
+padding-top: 30px;
+
+margin-left: 40px;
+}
+
+.footer{
+	
+padding: 20px;
+	
+margin-bottom: 100px;
+}
